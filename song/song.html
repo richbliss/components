@@ -1,0 +1,11 @@
+<div class="song">
+
+	Message: {{ $ctrl.song.name }}
+	<div>
+		<input type="text" ng-model="$ctrl.song.name">
+	</div>
+
+	<div class="song">
+		<button ng-click="$ctrl.removeSong($ctrl.song.id)">Remove</button> {{ $ctrl.song.name }}
+	</div>
+</div>

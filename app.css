@@ -1,0 +1,14 @@
+* {
+	box-sizing: border-box;
+}
+
+body, html {
+	font-family: Helvetica, arial, sans-serif;
+	font-size: 20px;
+}
+
+.song {
+	border: 1px solid #ddd;
+	margin: 0.5rem;
+	padding: 0.5rem;
+}
